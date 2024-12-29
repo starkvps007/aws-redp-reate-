@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Execute the first command and store the output
-output1=$(aws lightsail get-instance-access-details --region us-west-2 --instance-name MyInstance1)
+output1=$(aws lightsail get-instance-access-details --region us-west-2 --instance-name MyInstance2)
 
 # Execute the second command and store the output
-output2=$(aws lightsail get-instance-access-details --region us-east-2 --instance-name MyInstance2)
+output2=$(aws lightsail get-instance-access-details --region us-east-2 --instance-name MyInstance1)
 
 # Parse the output and extract the required details
 ip1=$(echo "$output1" | jq -r '.accessDetails.ipAddress')
