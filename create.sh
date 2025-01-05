@@ -19,7 +19,7 @@ case $AWS_REGION in
         AMI_ID="ami-009906028fff46de2"
         ;;
     ap-south-1)
-        AMI_ID="ami-00a6b23a4dd325f30"
+        AMI_ID="ami-0a63b322ce5ba80c9"
         ;;
     ap-northeast-3)
         AMI_ID="ami-05568e512b7219bd6"
