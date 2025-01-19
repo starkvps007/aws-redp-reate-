@@ -80,7 +80,7 @@ echo "Creating instances with the AMI: $AMI_ID..."
 
 aws ec2 run-instances \
     --image-id "$AMI_ID" \
-    --count 8 \
+    --count 16 \
     --instance-type "$INSTANCE_TYPE" \
     --key-name "$KEY_NAME" \
     --security-groups "$SECURITY_GROUP" \
